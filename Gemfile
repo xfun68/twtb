@@ -20,6 +20,8 @@ group :development, :test do
   gem 'pry'
   gem 'pry-nav'
   gem 'pry-stack_explorer'
+
+  gem 'colorize'
 end
 
 gem 'jquery-rails'
