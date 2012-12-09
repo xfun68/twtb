@@ -16,5 +16,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development, :test do
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'pry-stack_explorer'
+end
+
 gem 'jquery-rails'
 
